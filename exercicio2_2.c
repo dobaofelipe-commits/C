@@ -1,8 +1,7 @@
 # include <stdio.h>
 
 int main(){
-    int x,y,z;
-    char palavra;
+    int x,y,z,palavra;
     printf("Digite o primeiro lado do triângulo");
     scanf("%d", &x);
     printf("Digite o segundo lado do triângulo");
@@ -17,6 +16,6 @@ int main(){
         printf("Esse triângulo é escaleno");
     }
     printf("Enter para encerrar");
-    scanf("%c",&palavra);
+    scanf("%d",&palavra);
     return 0;
 }
