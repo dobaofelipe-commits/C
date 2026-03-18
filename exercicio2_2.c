@@ -15,5 +15,5 @@ int main(){
     } else {
         printf("Esse triângulo é escaleno");
     }
-    getchar();git
+    getchar();
 }
