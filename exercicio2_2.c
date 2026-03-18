@@ -2,6 +2,7 @@
 
 int main(){
     int x,y,z;
+    char c; 
     printf("Digite o primeiro lado do triângulo");
     scanf("%d", &x);
     printf("Digite o segundo lado do triângulo");
@@ -15,5 +16,6 @@ int main(){
     } else {
         printf("Esse triângulo é escaleno");
     }
-    getchar();
+    scanf("%c",&c);
+    return 0;
 }
