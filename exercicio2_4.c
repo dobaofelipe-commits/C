@@ -28,7 +28,8 @@ int main(){
     printf("Operador desconhecido");
         break;
     }
-
+    getchar();
+    getchar();
     return 0;
 
 }
