@@ -17,6 +17,6 @@ int main(){
         printf("Esse triângulo é escaleno");
     }
     printf("Enter para encerrar");
-    getch();
+    getchar();
     return 0;
 }
